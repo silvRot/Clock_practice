@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/graffiti-569265_1920.jpg);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+span {
+    font-size: 8rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgba(245, 245, 245, 0.829);
+
+    
+}
+.clock {
+    background-color: rgba(255, 255, 255, 0.258);
+    
+}
+
+#session {
+    padding-left: 1rem;
+}
